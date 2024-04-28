@@ -44,7 +44,7 @@ export default () => {
               <div id="overlay">
                 <h1>Portfolio Website</h1>
                 <button onClick={() => {
-                  window.open("https://github.com/KeeganBruer/")
+                  window.open("https://github.com/KeeganBruer/NextJSPortfolio")
                 }}><FaGithub />View on Github</button>
               </div>
             </div>
