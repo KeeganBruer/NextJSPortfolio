@@ -1,5 +1,7 @@
 
 <div align = center>
+<h3>Keegan Bruer</h3>
+Full Stack, DevOps & Machine Learning
 
 ![View Live Website](./src/assets/DesktopClipart.svg)
 
@@ -14,3 +16,4 @@ This project utilizes NextJS to produce a static site that is served with nginx.
 [View Live Site](https://keeganbruer.com)
 
 </div>
+
