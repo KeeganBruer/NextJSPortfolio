@@ -16,20 +16,37 @@ export default () => {
         <Section>
             <h1 id="testimonials" className="heading" style={{ "fontSize": "45px" }}>Testimonials</h1>
             <CardSlide currIndex={currIndex} setCurrIndex={setCurrIndex}>
-                <Testimonial profile={"/testimonials/TinaWilliams.jpg"}>
+                <Testimonial profile={"/testimonials/DavidSteadman.jpg"}>
                     <div id="img"></div>
-                    <p>"One of the core values at CyDeploy is "professional curiosity."  This entails team members really owning their respective crafts and taking initiative on the next step, always thinking of how something could be done better.  Keegan embodies this value.  He's not only a strong engineer, but also a clear, and effective communicator, a rare combination among tech professionals!"</p>
-                    <a href="#">    
+                    <a href="https://www.linkedin.com/in/david-steadman/">    
+                        <h2>David (Steady) Steadman</h2>
+                    </a>
+                    <p>
+                        "I've had the immense pleasure of working alongside Keegan at CyDeploy, where he has unequivocally established himself as a rockstar in our midst. Through his unparalleled expertise and dedication, Keegan has revolutionized the way we operate by masterfully orchestrating a Kubernetes cluster and automating all facets of our Azure marketplace and deployment processes.
+                    </p>
+                    <p>
+                        His approach to challenges is nothing short of inspiring; Keegan doesn't just tackle issues as they arise—he dives headfirst into the heart of the problem with a solution-oriented mindset that uplifts the entire team. This isn't just about technical proficiency; it's about an attitude that elevates our collective spirit and drives towards excellence.
+                    </p>
+                    <p>
+                        The ripple effects of Keegan's contributions are felt across all our projects. His work has not only streamlined our operations but also dramatically enhanced our efficiency and effectiveness, allowing us to deliver superior services to our clients with unprecedented speed and reliability.
+                    </p>
+                    <p>
+                        Keegan is more than just a skilled professional; he's a team player through and through. His willingness to share knowledge, offer guidance, and foster a collaborative environment has significantly contributed to our team's growth and success.
+                    </p>
+                    <p>
+                        In summary, Keegan's impact at CyDeploy has been transformative. His blend of technical acumen, problem-solving prowess, and collaborative spirit marks him as a true rockstar in our field. We're incredibly fortunate to have him on our team, pushing the boundaries of what's possible and setting new benchmarks for excellence."
+                    </p>
+                    
+                </Testimonial>
+                <Testimonial profile={"/testimonials/TinaWilliams.jpg"}>
+                    <a href="https://www.linkedin.com/in/tcwk/">    
+                        <div id="img"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tcwk/">    
                         <h2>Tina Williams-Koroma, Esq., CISSP, PMP</h2>
                     </a>
+                    <p>"One of the core values at CyDeploy is "professional curiosity."  This entails team members really owning their respective crafts and taking initiative on the next step, always thinking of how something could be done better.  Keegan embodies this value.  He's not only a strong engineer, but also a clear, and effective communicator, a rare combination among tech professionals!"</p>
                 </Testimonial>
-                {/* <Testimonial profile={"/testimonials/DavidSteadman.jpg"}>
-                    <div id="img"></div>
-                    <p>""</p>
-                    <a href="#">    
-                        <h2>David S.</h2>
-                    </a>
-                </Testimonial> */}
             </CardSlide>
         </Section>
     );
@@ -38,9 +55,11 @@ export default () => {
 
 const Testimonial:IStyledComponent<"web", FastOmit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement> & {profile:string}, HTMLDivElement>, never>> = styled.div`
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     #img {
         width: 100px;
         height: 100px;
@@ -50,7 +69,8 @@ const Testimonial:IStyledComponent<"web", FastOmit<DetailedHTMLProps<HTMLAttribu
         background-position: center;
         background-size: cover;
         border-radius: 50%;
-        margin-bottom: 20px;
+        margin: 0px;
+        margin-bottom: 5px;
         @media screen and (max-width: ${()=>responsiveMobileWidth}) {
             & {
                 margin-bottom: 10px;
@@ -63,6 +83,8 @@ const Testimonial:IStyledComponent<"web", FastOmit<DetailedHTMLProps<HTMLAttribu
 
     }
     h2 {
+        margin: 0px;
+        margin-bottom: 20px;
         @media screen and (max-width: ${()=>responsiveMobileWidth}) {
             & {
                 font-size: 16px;
@@ -71,10 +93,10 @@ const Testimonial:IStyledComponent<"web", FastOmit<DetailedHTMLProps<HTMLAttribu
         }
     }
     p {
-        font-size: 25px;
+        font-size: 18px;
         @media screen and (max-width: ${()=>responsiveMobileWidth}) {
             & {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
@@ -106,9 +128,9 @@ function CardSlide(props:{children:ReactElement | ReactElement[], currIndex:numb
                 {children.map((card, i) => <Card key={"card"+i} offset={props.currIndex}>{card}</Card>)}
             </CardWrapper>
             <div id="overlay">
-                <div className="nav" onClick={()=>prev()}><IoIosArrowBack/></div>
+                <div className="nav" id="left" onClick={()=>prev()}><IoIosArrowBack/></div>
                 <div id="spacer"></div>
-                <div className="nav" onClick={() => next()}><IoIosArrowForward/></div>
+                <div className="nav" id="right" onClick={() => next()}><IoIosArrowForward/></div>
                 <PageIndicator>{children.map((c, i) => (
                     <div key={"indicator"+i} id={i == props.currIndex ? "current" :""}></div>
                 ))}</PageIndicator>
@@ -177,6 +199,13 @@ const Wrapper = styled.div`
                 &.nav {
                     max-width: 100px;
                 }
+                &#left svg {
+                    margin-right: 40px;
+                }
+                &#right svg {
+                    margin-left: 40px;
+
+                }
                 svg {
                     width: 30px !important;
                     height: 30px !important;
@@ -189,15 +218,15 @@ const Wrapper = styled.div`
             align-items: center;
 
             svg {
-                width: 100px;
-                height: 100px;
+                width: 60px;
+                height: 60px;
             }
         }
     }
 `
     
 const CardWrapper = styled.div`
-    width: var(--width);
+    width: 90%;
     display: flex;
     overflow: hidden;
 `

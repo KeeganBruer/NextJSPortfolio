@@ -23,7 +23,8 @@ export const BuildPageMeta = (details: {
     title?: string,
     description?:string,
     url?: string,
-    socialCover?:string
+    socialCover?:string,
+    og_description?:string,
 }) => {
     const Title = details.title != undefined ? details.title : "Keegan Bruer"
     const Description = details.description != undefined
@@ -31,6 +32,7 @@ export const BuildPageMeta = (details: {
         : "A Full Stack, DevSecOps, and Machine Learning Engineer with experience in delivering secure, high-quality software empowered by AI."
     const url_link = "https://keeganbruer.com" + (details.url != undefined ? details.url : "/")
     const socialCover = details.socialCover != undefined ? details.socialCover : "https://keeganbruer.com/SocialThumbnail.jpg"
+    const og_description = details.og_description != undefined ? details.og_description : Description
     return {
         ...DefaultMeta,
         metadataBase: new URL('https://keeganbruer.com'),
@@ -38,7 +40,7 @@ export const BuildPageMeta = (details: {
         description: Description,
         openGraph: {
             title: Title,
-            description: Description,
+            description: og_description,
             url: url_link,
             images: [
                 {
