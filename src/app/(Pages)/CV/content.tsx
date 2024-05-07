@@ -89,6 +89,23 @@ const ResumeContent = styled.div`
     ul {
       margin-top: 0px;
     }
+    .ContactInfo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-direction: row;
+      & > div > svg {
+        min-width: 1em;
+      }
+      @media screen and (max-width: ${()=>responsiveMobileWidth}) {
+        flex-wrap: wrap;
+        & > div {
+          width: 150px;
+        }
+      }
+    }
+    
 `
 const BackButton = styled.a`
     position: absolute;
