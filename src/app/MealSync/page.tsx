@@ -12,7 +12,7 @@ export const metadata: Metadata = {
         url: "https://keeganbruer.com/MealSync",
         images: [
             {
-                url: "/project_covers/mealsync/cover.png",
+                url: "/MealSync_Social_Cover.png",
                 width: 1200,
                 height: 627
             }
