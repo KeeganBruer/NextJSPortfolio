@@ -5,11 +5,11 @@ import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
     title: "Meal Sync",
-    description: "",
+    description: "Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.",
     openGraph: {
         type:"website",
         title: "Meal Sync",
-        description: "",
+        description: "Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.",
         url: "https://keeganbruer.com/MealSync",
         images: [
             {
@@ -42,9 +42,9 @@ export default function MealSync() {
                     >MEAL SYNC</h1>
 
                     <p>
-                        Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
-                        MealSync focuses on bringing more collaberation to the dinner-making process.
-                        MealSync achieves better collaberation through easily-sharable recipes,
+                        Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.
+                        MealSync focuses on bringing more collaboration to the dinner-making process.
+                        MealSync achieves better collaboration through easily-sharable recipes,
                         shared meal plans, and real-time grocery lists (for those simultanious multi-store shopping trips).
                     </p>
 
@@ -74,7 +74,7 @@ export default function MealSync() {
                         <h4 className="font-bold pb-3 pt-5">Community</h4>
                         <p>
                             I&apos;ve said it before, Meals are a corner-stone of community: &quot;Everyone Eats&quot;.
-                            MealSync bolters collaberation through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultanious
+                            MealSync bolters collaboration through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultanious
                             multi-store shopping trips).
                         </p>
                     </div>
