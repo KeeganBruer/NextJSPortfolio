@@ -1,5 +1,6 @@
 import PageConstraint from "@/Components/PageConstraint";
 import PageWrapper from "@/Components/PageWrapper";
+import { CONSTANTS } from "@/Constants";
 import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
         url: "https://keeganbruer.com/MealSync",
         images: [
             {
-                url: "/MealSync_Social_Cover.png",
+                url: `${CONSTANTS.BASE_URL}/MealSync_Social_Cover.png`,
                 width: 1200,
                 height: 627
             }
