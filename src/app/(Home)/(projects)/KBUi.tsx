@@ -4,10 +4,10 @@ import React from "react"
 export default () => {
     return (
         <div>
-            <p className="w-full pt-3 min-h-[150px] border-t border-white text-sm sm:text-md">
+            <p className="w-full pt-3 border-t border-white text-sm sm:text-md">
                 KBUi is a ReactJS and Tailwind based UI Library aiming to provide functional, flexible, and stylized components.
             </p>
-            <div className="w-full flex row justify-end">
+            <div className="w-full flex row justify-end pt-3">
                 <Link
                     href={"https://github.com/KeeganBruer/KBUi"}
                     target="_blank"

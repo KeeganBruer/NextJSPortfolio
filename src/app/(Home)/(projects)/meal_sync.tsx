@@ -5,13 +5,13 @@ export default () => {
     return (
         <div>
 
-            <p className="w-full pt-3 min-h-[150px] border-t border-white text-sm sm:text-md">
+            <p className="w-full pt-3 border-t border-white text-sm sm:text-md">
                 Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
                 MealSync focuses on bringing more collaberation to the dinner-making process.
                 MealSync achieves better collaberation through easily-sharable recipes,
                 shared meal plans, and real-time grocery lists (for those simultanious multi-store shopping trips).
             </p>
-            <div className="w-full flex row justify-end">
+            <div className="w-full flex row justify-end pt-3">
 
                 <Link
                     href={"/MealSync"}

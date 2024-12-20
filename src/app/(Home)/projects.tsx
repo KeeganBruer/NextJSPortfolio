@@ -21,7 +21,7 @@ export default () => {
         {
             id:"liberty_brew_coffee",
             title: "Liberty Brew",
-            subtitle: "Coffee truck map and delivery mobile app",
+            subtitle: "Live map and delivery mobile app for coffee trucks",
             img:"/project_covers/liberty_brew.png",
             description: <LibertyBrew />
         },
