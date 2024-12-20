@@ -42,7 +42,7 @@ export default function MealSync() {
                     >MEAL SYNC</h1>
 
                     <p>
-                        Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.
+                        Meals are a corner-stone of community, &quot;Everyone Eats&quot;. MealSync focuses on bringing more collaboration to the dinner-making process.
                         MealSync focuses on bringing more collaboration to the dinner-making process.
                         MealSync achieves better collaboration through easily-sharable recipes,
                         shared meal plans, and real-time grocery lists (for those simultanious multi-store shopping trips).
