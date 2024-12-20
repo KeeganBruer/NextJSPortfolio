@@ -32,10 +32,10 @@ export default () => {
                 Since graduating, I now use my aptitude for writing to document system architectural designs, as well as
                 writing articles exploring various technical concepts I find interesting.
             </p>
-            <h3 className="font-bold text-white">Recent Articles I've Written</h3>
+            <h3 className="font-bold text-white">Recent Articles I&apos;ve Written</h3>
             <div className="flex flex-col w-full gap-[20px]">
                 {articles.map((a) => (
-                    <div className="bg-white w-full rounded-md shadow-black shadow-md relative flex items-center p-5 gap-[20px] pb-[30px] mt-[20px]">
+                    <div key={a.title} className="bg-white w-full rounded-md shadow-black shadow-md relative flex items-center p-5 gap-[20px] pb-[30px] mt-[20px]">
                         <div className="absolute top-[-20px] left-[10px] p-1 px-3 bg-white rounded-md flex gap-3 items-center shadow-md shadow-black">
                             <span className="text-sm">{a.title}</span>
                         </div>
