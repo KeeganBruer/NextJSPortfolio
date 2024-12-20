@@ -11,7 +11,7 @@ export default () => {
                 <div className="h-full flex flex-rom items-center gap-[10px]">
                     <Link
                         href={`/`}
-                        className="border border-white rounded-md w-[70px] flex justify-center items-center text-white"
+                        className="border border-white pl-3 pr-3 rounded-md w-[70px] flex justify-center items-center text-white"
                     >Home</Link>
                     <Link
                         href={`/profesional_story`}
