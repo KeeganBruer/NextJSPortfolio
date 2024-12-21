@@ -45,12 +45,20 @@ export default function MealSync() {
                         Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
                         MealSync focuses on bringing more collaboration to the dinner-making process.
                         MealSync achieves better collaboration through easily-sharable recipes,
-                        shared meal plans, and real-time grocery lists (for those simultanious multi-store shopping trips).
+                        shared meal plans, and real-time grocery lists (for those simultaneous multi-store shopping trips).
                     </p>
 
                     <h3 className="text-xl font-bold pb-3 pt-10">Has MealSync been released yet?</h3>
                     <p>
-                        Not yet, MealSync will be out on the Google Playstore in early January of 2025!
+                        Not yet,
+                        to be approved for publishing on the Google Play Store, we have to run a closed test
+                        with a minimum of 12 testers who have been opted-in for at least 14 days continuously.
+                    </p>
+                    <p className="pt-3">
+                        MealSync will hold its closed test from January 20th - Febuary 7th.
+                    </p>
+                    <p className="pt-3 font-bold">
+                        If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
                     </p>
 
                     <h3 className="text-xl font-bold pb-3 pt-10">Will MealSync be available on IOS?</h3>
@@ -74,7 +82,7 @@ export default function MealSync() {
                         <h4 className="font-bold pb-3 pt-5">Community</h4>
                         <p>
                             I&apos;ve said it before, Meals are a corner-stone of community: &quot;Everyone Eats&quot;.
-                            MealSync bolsters collaboration through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultanious
+                            MealSync bolsters collaboration through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultaneous
                             multi-store shopping trips).
                         </p>
                     </div>
@@ -87,21 +95,40 @@ export default function MealSync() {
                     </p>
                     <div className="w-full flex justify-between pt-5">
                         <h3 className="text-xl font-bold">Release Plan</h3>
-                        <span><span className="font-bold">Current Stage:</span> Pre-Release</span>
+                        <span className="font-bold">Pre-Release</span>
                     </div>
                     <div style={{ paddingLeft: 20 }}>
                         
-                        <div className="w-full flex justify-between pb-3 pt-5">
-                            <h4 className="font-bold">Stage 1 - Beta Release</h4>
+                        <h4 className="font-bold text-lg pt-5">Stage 1 - Beta Release</h4>
+                        <div className="w-full font-bold flex justify-between pb-3">
                             <span>(Android)</span>
+                            <span>January 20th</span>
                         </div>
                         <p>
                             The App will release in a semi-finished stage that focuses on the local-first features. 
+                            To be approved for publishing on the Google Play Store, we have to run a closed test
+                            with a minimum of 12 testers who have been opted-in for at least 14 days continuously.
+
+                        </p>
+                        <p className="pt-3">
+                            MealSync will hold its closed test from January 20th - Febuary 7th.
+                        </p>
+                        <p className="pt-3">
+                            If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
+                        </p>
+                        <h4 className="font-bold text-lg pt-5">Stage 2 - Local-Only With Ads</h4>
+                        <div className="w-full font-bold flex justify-between pb-3">
+                            <span>(Android)</span>
+                            <span>Febuary 10th</span>
+                        </div>
+                        <p>
+                            Once the closed test is completed, MealSync will be publicly released on Android with Local-Only features.
                             The lack of server costs plus the addition of Ads will help start the initial app funds.
                         </p>
-                        <div className="w-full flex justify-between pb-3 pt-5">
-                            <h4 className="font-bold">Stage 2 - Account Integration & Funding</h4>
+                        <h4 className="font-bold text-lg pt-5">Stage 3 - Account Integration & Funding</h4>
+                        <div className="w-full font-bold flex justify-between pb-3">
                             <span>(Android)</span>
+                            <span>TBD</span>
                         </div>
                         <p>
                             Based on the success of the first stage, Account integration (as well as user-feedback) will be integrated.
@@ -109,17 +136,19 @@ export default function MealSync() {
                             will be used to support the server costs of the app and build towards funding the
                             Apple App Store Registration Fee.
                         </p>
-                        <div className="w-full flex justify-between pb-3 pt-5">
-                            <h4 className="font-bold">Stage 3 - IOS Release</h4>
+                        <h4 className="font-bold text-lg pt-5">Stage 4 - IOS Release</h4>
+                        <div className="w-full font-bold flex justify-between pb-3">
                             <span>(IOS & Android)</span>
+                            <span>TBD</span>
                         </div>
                         <p>
                             Once the app has secured the funding for the yearly Apple App Store Registration Fee, an IOS version of the app 
                             will be released.
                         </p>
-                        <div className="w-full flex justify-between pb-3 pt-5">
-                            <h4 className="font-bold">Stage 4 - Full Release</h4>
+                        <h4 className="font-bold text-lg pt-5">Stage 5 - Full Release</h4>
+                        <div className="w-full font-bold flex justify-between pb-3">
                             <span>(IOS & Android)</span>
+                            <span>TBD</span>
                         </div>
                         <p>
                             The full release will include final adjustments based on user feedback, enhanced usability, and design improvements.

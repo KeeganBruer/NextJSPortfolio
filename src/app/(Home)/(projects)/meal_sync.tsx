@@ -9,7 +9,7 @@ export default () => {
                 Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
                 MealSync focuses on bringing more collaberation to the dinner-making process.
                 MealSync achieves better collaberation through easily-sharable recipes,
-                shared meal plans, and real-time grocery lists (for those simultanious multi-store shopping trips).
+                shared meal plans, and real-time grocery lists (for those simultaneous multi-store shopping trips).
             </p>
             <div className="w-full flex row justify-end pt-3">
 

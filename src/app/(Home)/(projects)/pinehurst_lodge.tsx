@@ -7,6 +7,7 @@ export default () => {
 
             <p className="w-full pt-3 border-t border-white text-sm sm:text-md">
                 A bespoke website showcasing an incredible AirBnb just outside of Boulder and only 15 minutes from Eldora Ski Mountain.
+
                 
             </p>
             <div className="w-full flex row justify-end pt-3">
