@@ -50,15 +50,13 @@ export default function SyncPlate() {
 
                     <h3 className="text-xl font-bold pb-3 pt-10">Has SyncPlate been released yet?</h3>
                     <p>
-                        Not yet,
-                        to be approved for publishing on the Google Play Store, we have to run a closed test
+                        SyncPlate has not been released to the public just yet.
+                        To be approved for publishing on the Google Play Store, we have to run a closed test
                         with a minimum of 12 testers who have been opted-in for at least 14 days continuously.
                     </p>
-                    <p className="pt-3">
-                        SyncPlate will hold its closed test from January 20th - Febuary 7th.
-                    </p>
                     <p className="pt-3 font-bold">
-                        If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
+                        So, if you are interested in helping shape the future of this app through feedback.
+                        Consider participating in our closed beta. Email inquire@keeganbruer.com if you are interested.
                     </p>
 
                     <h3 className="text-xl font-bold pb-3 pt-10">Will SyncPlate be available on IOS?</h3>
