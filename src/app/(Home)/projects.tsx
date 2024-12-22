@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import KBUi from "./(projects)/KBUi";
 import Javadoc from "./(projects)/javadoc";
-import MealSync from "./(projects)/meal_sync";
+import SyncPlate from "./(projects)/meal_sync";
 import LibertyBrew from "./(projects)/liberty_brew_coffee";
 import PinehurstLodge from "./(projects)/pinehurst_lodge";
 import DnDEngine from "./(projects)/dndengine";
@@ -13,10 +13,10 @@ export default () => {
         
         {
             id:"meal_sync",
-            title: "MealSync",
+            title: "SyncPlate",
             subtitle: "An all-in-one meal planning solution",
-            img:"/project_covers/mealsync/cover.png",
-            description: <MealSync />
+            img:"/project_covers/syncplate/cover.png",
+            description: <SyncPlate />
         },
         {
             id:"liberty_brew_coffee",

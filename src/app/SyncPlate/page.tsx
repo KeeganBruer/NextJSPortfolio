@@ -4,29 +4,29 @@ import { CONSTANTS } from "@/Constants";
 import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
-    title: "Meal Sync",
-    description: "Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.",
+    title: "SyncPlate",
+    description: "Meals are a corner-stone of community, Everyone Eats. SyncPlate focuses on bringing more collaboration to the dinner-making process.",
     openGraph: {
         type:"website",
-        title: "Meal Sync",
-        description: "Meals are a corner-stone of community, Everyone Eats. MealSync focuses on bringing more collaboration to the dinner-making process.",
-        url: "https://keeganbruer.com/MealSync",
+        title: "SyncPlate",
+        description: "Meals are a corner-stone of community, Everyone Eats. SyncPlate focuses on bringing more collaboration to the dinner-making process.",
+        url: "https://keeganbruer.com/SyncPlate",
         images: [
             {
-                url: `${CONSTANTS.BASE_URL}/MealSync_Social_Cover.png`,
+                url: `${CONSTANTS.BASE_URL}/SyncPlate_Social_Cover.png`,
                 width: 1200,
                 height: 627
             }
         ]
     }
   };
-export default function MealSync() {
+export default function SyncPlate() {
     return (
         <PageWrapper color="#3C8864">
             <div style={{height:100}}></div>
             <Image
-                alt="Meal Sync Icon"
-                src="/project_covers/mealsync/icon.png"
+                alt="MealSync Icon"
+                src="/project_covers/syncplate/icon.png"
                 width={150} height={150}
                 style={{ borderRadius: 300, position:"relative", zIndex:1, backgroundColor:"#3C8864", border: "1px solid black", marginBottom:-50 }}
             ></Image>
@@ -39,58 +39,58 @@ export default function MealSync() {
                     <h1
                         className="font-bold w-full text-center"
                         style={{ fontSize:50, color: "white",textShadow: "0 0 3px #000000, 0 0 5px #000000" }}
-                    >MEAL SYNC</h1>
+                    >DINNER SYNC</h1>
 
                     <p>
                         Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
-                        MealSync focuses on bringing more collaboration to the dinner-making process.
-                        MealSync achieves better collaboration through easily-sharable recipes,
+                        SyncPlate focuses on bringing more collaboration to the dinner-making process.
+                        SyncPlate achieves better collaboration through easily-sharable recipes,
                         shared meal plans, and real-time grocery lists (for those simultaneous multi-store shopping trips).
                     </p>
 
-                    <h3 className="text-xl font-bold pb-3 pt-10">Has MealSync been released yet?</h3>
+                    <h3 className="text-xl font-bold pb-3 pt-10">Has SyncPlate been released yet?</h3>
                     <p>
                         Not yet,
                         to be approved for publishing on the Google Play Store, we have to run a closed test
                         with a minimum of 12 testers who have been opted-in for at least 14 days continuously.
                     </p>
                     <p className="pt-3">
-                        MealSync will hold its closed test from January 20th - Febuary 7th.
+                        SyncPlate will hold its closed test from January 20th - Febuary 7th.
                     </p>
                     <p className="pt-3 font-bold">
                         If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
                     </p>
 
-                    <h3 className="text-xl font-bold pb-3 pt-10">Will MealSync be available on IOS?</h3>
+                    <h3 className="text-xl font-bold pb-3 pt-10">Will SyncPlate be available on IOS?</h3>
                     <p>
-                        MealSync is coming to android in early January 2025, but getting on the Apple App Store will take a little longer.
-                        But the good news, MealSync is already IOS compatible! So once we secure and validate the funding for app store registration,
+                        SyncPlate is coming to android in early January 2025, but getting on the Apple App Store will take a little longer.
+                        But the good news, SyncPlate is already IOS compatible! So once we secure and validate the funding for app store registration,
                         <span className="font-bold"> Meal Sync will be coming to IOS</span> 
                     </p>
                     <h3 className="text-xl font-bold pt-10">What are the main features?</h3>
                     <div style={{paddingLeft:20}}>
                         <h4 className="font-bold pb-3 pt-5">Recipes</h4>
                         <p>
-                        MealSync&apos;s core revolves around storing and managing your recipes.
+                        SyncPlate&apos;s core revolves around storing and managing your recipes.
                         </p>
                         <h4 className="font-bold pb-3 pt-5">Meal Planning</h4>
                         <p>
-                            MealSync helps plan meals for families of all sizes, from solo cooks to large households.
-                            Gone are the days of hearing, &quot;What&apos;s for dinner?&quot; MealSync makes meal planning a collaborative effort,
+                            SyncPlate helps plan meals for families of all sizes, from solo cooks to large households.
+                            Gone are the days of hearing, &quot;What&apos;s for dinner?&quot; SyncPlate makes meal planning a collaborative effort,
                             so everyone can have input.
                         </p>
                         <h4 className="font-bold pb-3 pt-5">Community</h4>
                         <p>
                             I&apos;ve said it before, Meals are a corner-stone of community: &quot;Everyone Eats&quot;.
-                            MealSync bolsters collaboration through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultaneous
+                            SyncPlate bolsters collaboration through easily-sharable recipes, shared meal plans, and real-time grocery lists (for those simultaneous
                             multi-store shopping trips).
                         </p>
                     </div>
                     
-                    <h3 className="text-xl font-bold pb-3 pt-10">How is MealSync Different?</h3>
+                    <h3 className="text-xl font-bold pb-3 pt-10">How is SyncPlate Different?</h3>
                     <p>
-                        MealSync is local-first while still offering features to backup, share and connect.
-                        A major benefit of our local-first model is that MealSync is one of the only apps offering
+                        SyncPlate is local-first while still offering features to backup, share and connect.
+                        A major benefit of our local-first model is that SyncPlate is one of the only apps offering
                         an unlimited number of free local recipes.
                     </p>
                     <div className="w-full flex justify-between pt-5">
@@ -111,7 +111,7 @@ export default function MealSync() {
 
                         </p>
                         <p className="pt-3">
-                            MealSync will hold its closed test from January 20th - Febuary 7th.
+                            SyncPlate will hold its closed test from January 20th - Febuary 7th.
                         </p>
                         <p className="pt-3">
                             If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
@@ -122,7 +122,7 @@ export default function MealSync() {
                             <span>Febuary 10th</span>
                         </div>
                         <p>
-                            Once the closed test is completed, MealSync will be publicly released on Android with Local-Only features.
+                            Once the closed test is completed, SyncPlate will be publicly released on Android with Local-Only features.
                             The lack of server costs plus the addition of Ads will help start the initial app funds.
                         </p>
                         <h4 className="font-bold text-lg pt-5">Stage 3 - Account Integration & Funding</h4>
