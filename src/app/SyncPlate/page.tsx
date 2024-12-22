@@ -109,9 +109,6 @@ export default function SyncPlate() {
 
                         </p>
                         <p className="pt-3">
-                            SyncPlate will hold its closed test from January 20th - Febuary 7th.
-                        </p>
-                        <p className="pt-3">
                             If you are interested in participating in the closed beta. Email inquire@keeganbruer.com
                         </p>
                         <h4 className="font-bold text-lg pt-5">Stage 2 - Local-Only With Ads</h4>
