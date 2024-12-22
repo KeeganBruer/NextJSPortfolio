@@ -39,7 +39,7 @@ export default function SyncPlate() {
                     <h1
                         className="font-bold w-full text-center"
                         style={{ fontSize:50, color: "white",textShadow: "0 0 3px #000000, 0 0 5px #000000" }}
-                    >DINNER SYNC</h1>
+                    >SYNC PLATE</h1>
 
                     <p>
                         Meals are a corner-stone of community, &quot;Everyone Eats&quot;.

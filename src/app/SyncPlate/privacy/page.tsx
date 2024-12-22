@@ -26,7 +26,7 @@ export default function SyncPlate() {
             <div style={{height:100}}></div>
             <Image
                 alt="SyncPlate Icon"
-                src="/project_covers//icon.png"
+                src="/project_covers/syncplate/icon.png"
                 width={150} height={150}
                 style={{ borderRadius: 300, position:"relative", zIndex:1, backgroundColor:"#3C8864", border: "1px solid black", marginBottom:-50 }}
             ></Image>
@@ -39,13 +39,9 @@ export default function SyncPlate() {
                     <h1
                         className="font-bold w-full text-center"
                         style={{ fontSize:50, color: "white",textShadow: "0 0 3px #000000, 0 0 5px #000000" }}
-                    >DINNER SYNC&apos;S PRIVACY POLICY</h1>
+                    >SYNC PLATE&apos;S PRIVACY POLICY</h1>
 
                     <p>
-                        Meals are a corner-stone of community, &quot;Everyone Eats&quot;.
-                        SyncPlate focuses on bringing more collaboration to the dinner-making process.
-                        SyncPlate achieves better collaboration through easily-sharable recipes,
-                        shared meal plans, and real-time grocery lists (for those simultaneous multi-store shopping trips).
                     </p>
 
                     
