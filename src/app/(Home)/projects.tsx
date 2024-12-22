@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import KBUi from "./(projects)/KBUi";
 import Javadoc from "./(projects)/javadoc";
-import SyncPlate from "./(projects)/meal_sync";
+import SyncPlate from "./(projects)/syncplate";
 import LibertyBrew from "./(projects)/liberty_brew_coffee";
 import PinehurstLodge from "./(projects)/pinehurst_lodge";
 import DnDEngine from "./(projects)/dndengine";
@@ -12,7 +12,7 @@ export default () => {
     let projects = [
         
         {
-            id:"meal_sync",
+            id:"syncplate",
             title: "SyncPlate",
             subtitle: "An all-in-one meal planning solution",
             img:"/project_covers/syncplate/cover.png",
@@ -53,7 +53,7 @@ export default () => {
             description: <Javadoc />
         },
     ]
-    let [selectedProjectID, setSelectedProjectID] = useState<string>("meal_sync")
+    let [selectedProjectID, setSelectedProjectID] = useState<string>("syncplate")
     let selectedProject = useMemo(() => projects.filter(p => p.id == selectedProjectID)[0], [selectedProjectID])
     const isSelected = (project:{id:string}) => {
         return project.id == selectedProjectID;
