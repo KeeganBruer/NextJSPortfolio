@@ -4,43 +4,53 @@ import PageWrapper from "@/Components/PageWrapper";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import Developer from "./(sections)/developer"
 export default function Home() {
   let sections = [
     {
       title: "The Fundementals of Development",
-      id:"developer",
+      id: "developer",
+      content:<Developer />
     },
     {
       title: "Progressing To Engineer",
-      id:"engineer",
+      id: "engineer",
+      content:<Developer />
     },
     {
       title:"Full Stack / Desktop / Mobile",
       id:"fullstack",
+      content:<Developer />
     },
     {
       title:"Building Cloud Experience",
       id:"cloud",
+      content:<Developer />
     },
     {
       title:"Understanding DevOps",
       id:"devops",
+      content:<Developer />
     },
     {
       title:"Container Orchestration & Kubernetes",
       id:"kubernetes",
+      content:<Developer />
     },
     {
       title:"Machine Learning & AI",
       id:"ml_ai",
+      content:<Developer />
     },
     {
       title:"System Architecture",
       id:"architect",
+      content:<Developer />
     },
     {
       title:"Golden Sandbox",
       id:"sandbox",
+      content:<Developer />
     }
   ]
   return (
@@ -50,11 +60,9 @@ export default function Home() {
         My Professional Story
       </h1>
       {sections.map((section) => (
-        <div className="">
+        <div className="" key={section.id}>
           <h2 id={section.id} className="pt-[40px] text-white w-full font-bold">{section.title}</h2>
-          <p className="w-full text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          {section.content}
         </div>
       ))}
       <div className="h-[200px]"></div>
