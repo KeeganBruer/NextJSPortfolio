@@ -6,6 +6,8 @@ export default () => {
         <div>
             <p className="w-full pt-3 border-t border-white text-sm sm:text-md">
                 KBUi is a ReactJS and Tailwind based UI Library aiming to provide functional, flexible, and stylized components.
+                KBUi provides both web and native templates and components, providing seamless crossplatform UI from both a user
+                and developer standpoint.
             </p>
             <div className="w-full flex row justify-end pt-3">
                 <Link

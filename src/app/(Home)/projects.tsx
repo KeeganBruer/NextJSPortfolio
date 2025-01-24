@@ -36,6 +36,7 @@ export default () => {
             id:"kbui",
             title: "KBUi",
             subtitle: "(K-B-U-I) or (ka-boo-ie)",
+            img:"/project_covers/KBUi.png",
             description: <KBUi />
         },
         {
