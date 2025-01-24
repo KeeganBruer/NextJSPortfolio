@@ -11,8 +11,15 @@ export default () => {
                 SyncPlate achieves better collaberation through easily-sharable recipes,
                 shared meal plans, and real-time grocery lists (for those simultaneous multi-store shopping trips).
             </p>
-            <div className="w-full flex row justify-end pt-3">
+            <div className="w-full flex row justify-end pt-3 gap-[10px]">
 
+                <Link
+                    href={"https://play.google.com/store/apps/details?id=com.keeganbruer.syncplate"}
+                    target="_blank"
+                    className="w-[200px] bg-slate-500 text-white rounded-md p-1 cursor-pointer flex justify-center align-center"
+                    >
+                    Open Google Play Store
+                </Link>
                 <Link
                     href={"/SyncPlate"}
                     target="_blank"
