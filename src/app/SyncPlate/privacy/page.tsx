@@ -57,10 +57,13 @@ export default function SyncPlate() {
           <h2>2. Third-Party Services</h2>
           <p>
             While we do not collect user data, <strong>SyncPlate uses Google AdSense</strong> to serve ads.
-            Google may collect certain data to personalize ads, such as device identifiers and usage patterns.
           </p>
+          <ul>
+            <li>Google may collect certain data to personalize ads, such as device identifiers and usage patterns.</li>
+            <li>These services are governed by their own privacy policies.</li>
+          </ul>
           <p>
-            These services are governed by their own privacy policies. You can learn more at:
+            You can learn more at:
             <br />
             <a
               href="https://policies.google.com/technologies/ads"

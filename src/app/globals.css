@@ -27,6 +27,10 @@ body {
 #syncplate_privacy section {
   padding-top: 30px;
 }
+#syncplate_privacy section ul {
+  list-style-type: circle;
+  padding-left: 30px;
+}
 #syncplate_privacy section > h2 {
   font-weight: bold;
 }
