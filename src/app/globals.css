@@ -19,10 +19,21 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
+#syncplate_privacy h1 {
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 #syncplate_privacy section {
   padding-top: 30px;
 }
 #syncplate_privacy section > h2 {
   font-weight: bold;
+}
+#syncplate_privacy section > h2 {
+  font-weight: bold;
+}
+#syncplate_privacy section a {
+  color: blue;
+  text-decoration: underline;
 }
