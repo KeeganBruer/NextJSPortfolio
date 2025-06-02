@@ -36,7 +36,7 @@ export default function SyncPlate() {
                     padding: 20, paddingTop: 60,
                     
                 }}>
-                    <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+                    <main id="syncplate_privacy" style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>Privacy Policy for SyncPlate</h1>
         <p><strong>Effective Date:</strong> June 1, 2025</p>
         <p><strong>Developer:</strong> Keegan Bruer</p>
