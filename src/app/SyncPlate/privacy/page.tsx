@@ -63,7 +63,7 @@ export default function SyncPlate() {
             <li>These services are governed by their own privacy policies.</li>
           </ul>
           <p>
-            You can learn more at:
+            To learn more about how Google handles data in its advertising services, please visit:
             <br />
             <a
               href="https://policies.google.com/technologies/ads"
